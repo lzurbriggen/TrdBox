@@ -1,4 +1,17 @@
 TrdBox
 ======
 
-A VERY simple jQuery-plugin to display html-content in a lightbox.
+TrdBox is an extremely simple jQuery-plugin to display html-content in a lightbox.
+
+Usage
+-------------------------
+You can bind the lightbox to elements, it will open when the element is clicked:
+´´´js
+$(".openlightbox").trdbox("<div>This is the content.</div>");
+´´´
+You can call the show- and hide-functions manually by retrieving the box from an element:
+´´´js
+var trdbox = $(".openlightbox").data("trdbox");
+trdbox.show();
+´´´
+There cannot be multiple lightboxes open at the same time.
