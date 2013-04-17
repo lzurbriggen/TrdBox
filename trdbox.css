@@ -1,27 +1,25 @@
 #trdbox {
-	background: rgba(0,0,0,0.5);
-
-	position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-#trdbox_content {
-    max-width: 90%;
-	padding: 10px;
-	background: #fff;
+	background:rgba(0,0,0,0.5);
 	
-    display: inline-block;
-    margin: auto;
-    vertical-align: middle;
-    white-space: normal;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align:center;
 }
-
+#trdbox_content {
+	max-width:90%;
+	padding:10px;
+	background:#fff;
+	
+	display:inline-block;
+	margin:auto;
+	vertical-align:middle;
+	white-space:normal;
+}
 #trdbox_divhelper {
-    display: inline-block;
-    vertical-align: middle;
-    height:100%;
+	display:inline-block;
+	vertical-align:middle;
+	height:100%;
 }
